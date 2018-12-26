@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, FriendFinderActivity!</string>
+    <string name="app_name">FriendFinder</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="subscriber">Subscribe For Application</string>
+    <string name="subscriber1">Update Your Details</string>
+    <string name="area">Enter Your Area</string>
+    <string name="device">Device ID</string>
+    <string name="city">Enter Your City</string>
+	<string name="name">Enter Your Name</string>
+    <string name="phone">Enter Your Phone Number</string>
+    
+    <string name="addfriends">Add Friends</string>
+    <string name="seefriends">See Friends List</string>
+	<string name="seelocation">See Friends Location</string>
+    <string name="updloc">Update Your Details</string>
+    
+    <string name="add">Add Friend</string>
+    <string name="addf">Add New Friend</string>
+    
+    <string name="app_name1">FriendFinder : See Friends</string>
+    
+    <string name="app_name2">FriendFinder : Update Friends</string>
+    
+    <string name="area1">Enter Area</string>
+    <string name="city1">Enter City</string>
+	<string name="name1">Enter Name</string>
+    <string name="phone1">Enter Phone Number</string>
+    
+    <string name="farea">Area</string>
+    <string name="fcity">City</string>
+	<string name="fname">Name</string>
+    <string name="fphone">Phone Number</string>
+    
+    <string name="update">Update</string>
+    <string name="view">View</string>
+    <string name="delete">Delete</string>
+    <string name="desc">Friend Finder</string>    
+    
+    <string name="msg">Type Your Message</string>
+    <string name="latitude_dir">13.076359</string>
+    <string name="longitude_dir">77.664638</string>
+    <string name="address">AP</string>
+    
+</resources>

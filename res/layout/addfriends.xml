@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEFD5" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/addf"
+        android:typeface="serif"
+        android:textStyle="bold|italic"
+        android:textColor="#FF6347"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="15dp"
+        android:typeface="sans"
+        android:textColor="#DC143C"
+        android:ems="10"
+        android:hint="@string/name1" >
+
+        <requestFocus />
+    </EditText>
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editName1"
+        android:text="" />
+    
+    <EditText
+        android:id="@+id/editPhone1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:layout_below="@+id/textView2"
+        android:hint="@string/phone1"
+        android:maxLength="11"
+        android:ems="10"
+        android:textColor="#DC143C"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editPhone1"
+        android:text="" />
+    
+    <EditText
+        android:id="@+id/editArea1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:ems="10"
+        android:textColor="#DC143C"
+        android:hint="@string/area1" />
+    
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editArea1"
+        android:text="" />
+    
+    <EditText
+        android:id="@+id/editCity1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView4"
+        android:ems="10"
+        android:textColor="#DC143C"
+        android:hint="@string/city1" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editCity1"
+        android:layout_marginTop="20dp"
+        android:text="@string/add"
+        android:typeface="serif"
+        android:textStyle="bold|italic"
+        android:textSize="15sp"
+        android:textColor="#00008B"
+        android:onClick="addFriend" />
+    
+</RelativeLayout>
